@@ -10,6 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
+
       http:
         paths:
           - path: /api
@@ -45,5 +46,6 @@ spec:
                   number: 80
   tls:
     - hosts:
+
         - www.adityajaiswal.com
       secretName: adityajaiswal-co-tls
